@@ -1,0 +1,73 @@
+[
+  "YT",
+  "physics",
+  {
+    "name": "maths",
+    "subtags": [
+      "linear_algebra",
+      "algebra",
+      "stats",
+      "metric spaces",
+      "optimization",
+      "combinatorics",
+      "stochastic",
+      "numerical_analysis",
+      "number_theory"
+    ]
+  },
+  {
+    "name": "AI",
+    "subtags": [
+      "LLM",
+      "GAN",
+      "prompts",
+      "RAG",
+      "RL",
+      "FineTuning",
+      "LoRA",
+      "Geometic_DL",
+      "Agents"
+    ]
+  },
+  {
+    "name": "Finance",
+    "subtags": [
+      "Risk",
+      "Factors",
+      "macro",
+      "Sentiment",
+      "news",
+      "TAA",
+      "Regimes",
+      "Volatility",
+      "econometrics"
+    ]
+  },
+  {
+    "name": "Coding",
+    "subtags": [
+      "python",
+      "matlab",
+      "bash",
+      "cli",
+      "julia",
+      "library",
+      "tools"
+    ]
+  },
+  {
+    "name": "org",
+    "subtags": [
+      "contacts",
+      "health",
+      "KA",
+      "jobs"
+    ]
+  },  
+  "ML",
+  "RL",
+  "UL",
+  "DL",
+  "journal",
+  "other"
+]
