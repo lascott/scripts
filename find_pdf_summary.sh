@@ -58,9 +58,11 @@ find_summary() {
     local FOUND_OUTPUT=""
 
     # Define the commands to execute, using the provided PDF_FILENAME
+    # looking for summary, abstract, introduction sections
     local COMMANDS=(
-        "./pdf_summary.sh '$PDF_FILENAME' 1 2 - | grep -A 5 simply | head -n $NLINES"
-        "./pdf_summary.sh '$PDF_FILENAME' 1 2 - | grep -A 5 text | head -n $NLINES"
+        "./pdf_summary.sh '$PDF_FILENAME' 1 2 - | grep -A 5 ntroduction | head -n $NLINES"
+        "./pdf_summary.sh '$PDF_FILENAME' 1 2 - | grep -A 5 bstract | head -n $NLINES"
+        "./pdf_summary.sh '$PDF_FILENAME' 1 2 - | grep -A 5 ummary | head -n $NLINES"
         "./pdf_summary.sh '$PDF_FILENAME' 1 2 - | head -n $NLINES"
     )
 
